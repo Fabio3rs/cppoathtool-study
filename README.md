@@ -14,8 +14,11 @@ This project implements a Time-based One-Time Password (TOTP) generator in C++.
 
 ## Requirements
 
-- C++17 or higher
+- C++20 or higher
 - OpenSSL library
+- CMake
+- Ninja (optional)
+- GoogleTest (optional) check option ENABLE_TESTS in CMakeLists.txt
 
 ## Usage
 
