@@ -43,7 +43,7 @@ This project implements a Time-based One-Time Password (TOTP) generator in C++.
     Provide the secret key as the only argument:
 
     ```sh
-    ./otp_generator MZXW6YTBOJUWU23MNU
+    ./cppoathtool MZXW6YTBOJUWU23MNU
     ```
 
     This will output a 6-digit TOTP.
